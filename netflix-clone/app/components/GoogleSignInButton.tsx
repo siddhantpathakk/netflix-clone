@@ -7,7 +7,7 @@ import { signIn } from "next-auth/react";
 
 export default function GithubSignInButton() {
     return (
-        <Button variant='outline' size='icon'>                    
+        <Button onClick={() =>  signIn('google')} variant='outline' size='icon'>                    
         <Image 
             src={GoogleIcon} 
             alt="google icon" 

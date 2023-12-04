@@ -1,11 +1,14 @@
-// import { Accordion } from "@radix-ui/react-accordion";
-import { Button } from "@/components/ui/button";
+import { authOptions } from "./utils/auth";
+import { getServerSession } from "next-auth";
+import { redirect } from "next/navigation";
 
-export default function Home() {
-  return (
-    <div className="m-10">
-      <Button>Hello there</Button>
-      <h1>Next.js</h1>
-    </div>
-  )
+export default async function Home() {
+  const session = await getServerSession(authOptions);
+  
+  if (!session){
+    return redirect("/login");
+  } else {
+    return redirect(" /home");
+  }
+  
 }

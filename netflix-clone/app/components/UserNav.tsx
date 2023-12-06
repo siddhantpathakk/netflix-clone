@@ -19,8 +19,8 @@ export default function UserNav() {
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" className="relative h-10 w-10 rounded-sm">
           <Avatar className="h-10 w-10 rounded-sm">
-            <AvatarImage src="https://uknqszeudspmcjwpgthh.supabase.co/storage/v1/object/public/user%20image/default.png" />
-            <AvatarFallback className="rounded-sm">User</AvatarFallback>
+            <AvatarImage src="https://nkljkwikhlggqlnjctge.supabase.co/storage/v1/object/public/user%20image/avatar.png" />
+            <AvatarFallback className="rounded-sm">Jan</AvatarFallback>
           </Avatar>
         </Button>
       </DropdownMenuTrigger>
@@ -28,9 +28,9 @@ export default function UserNav() {
       <DropdownMenuContent className="w-56" align="end" forceMount>
         <DropdownMenuLabel>
           <div className="flex flex-col space-y-1">
-            <p className="text-sm font-medium leading-none">John</p>
+            <p className="text-sm font-medium leading-none">Jan</p>
             <p className="text-xs leading-none text-muted-foreground">
-              example@mail.com
+              jkasdf@asdkfj.com
             </p>
           </div>
         </DropdownMenuLabel>

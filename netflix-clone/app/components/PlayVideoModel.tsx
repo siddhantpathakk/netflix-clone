@@ -17,7 +17,7 @@ interface iAppProps {
   duration: number;
 }
 
-export default function PlayVideoModel({
+export default function PlayVideoModal({
   changeState,
   overview,
   state,
@@ -41,7 +41,7 @@ export default function PlayVideoModel({
             <p>{duration}h</p>
           </div>
         </DialogHeader>
-        <iframe src={youtubeUrl} height={250} className="w-full autoplay"></iframe>
+        <iframe src={youtubeUrl} height={250} className="w-full"></iframe>
       </DialogContent>
     </Dialog>
   );

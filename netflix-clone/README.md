@@ -1,6 +1,6 @@
 # Netflix Clone
 
-This is a Next.js 14 Netflix Clone using React, Supabase, Next-Auth, Prisma and Tailwind.css (Work-In-Progress).
+Next.js 14 Netflix Clone using React, Supabase, Next-Auth, Prisma and Tailwind.css (Work-In-Progress)
 
 ## Getting Started
 
